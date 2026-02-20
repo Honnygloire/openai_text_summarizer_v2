@@ -1,0 +1,62 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pklz
+*.pyo
+*.pyd
+*.so
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de configuration sensibles
+*.env
+.env.*
+
+# --- FastAPI / Uvicorn ---
+# Cache de Starlette / FastAPI
+*.db
+*.sqlite3
+
+# --- Tests ---
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# --- IDE / Éditeurs ---
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+
+# --- MacOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Ollama ---
+# (Ollama ne génère rien dans ton projet, mais on ignore par sécurité)
+ollama/
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Autres fichiers inutiles ---
+*.tmp
+*.swp
+*.swo
